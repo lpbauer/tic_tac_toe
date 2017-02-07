@@ -1,0 +1,18 @@
+.cell {
+height: 100px;
+width: 100px;
+}
+
+#row1 .cell, #row2 .cell {
+border-bottom: 2px solid black;
+}
+
+.column2 {
+border-left: 2px solid black;
+border-right: 2px solid black;
+}
+
+img {
+height: 50px;
+width: 50px;
+}

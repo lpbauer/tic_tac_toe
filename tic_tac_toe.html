@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+    <title>The Greatest Tic Tac Toe Game on the Internet!</title>
+    <link rel="stylesheet" href="tic_tac_toe.css">
+    <script src="model.js" charset="utf-8"></script>
+    <script src="controller.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <h1>Tic Tac Toe</h1>
+    <table>
+      <tr id="row1">
+        <td class="cell column1" data-index=0 > </td>
+        <td class="cell column2" data-index=1 > </td>
+        <td class="cell column3" data-index=2 > </td>
+      </tr>
+
+      <tr id="row2">
+        <td class="cell column1" data-index=3 > </td>
+        <td class="cell column2" data-index=4 > </td>
+        <td class="cell column3" data-index=5 > </td>
+      </tr>
+      <tr id="row3">
+        <td class="cell column1" data-index=6 > </td>
+        <td class="cell column2" data-index=7 > </td>
+        <td class="cell column3" data-index=8 > </td>
+      </tr>
+    </table>
+    <h2 id="winner">Win:</h2>
+    <button type="button" id="newgame">New Game</button>
+  </body>
+</html>
